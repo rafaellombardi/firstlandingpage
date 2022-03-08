@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,400&family=Roboto+Condensed&family=Roboto:ital,wght@0,900;1,300&family=Titillium+Web:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image:linear-gradient(45deg, #6FE7DD, #3490DE,#6639A6,#521262);
+    background-size: 300% 300%;
+    animation: colors 12s ease infinite;
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    } 
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position:  0% 50%;
+    }
+}
+.cabecalho {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cabelcalho-item {
+    position: relative;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+    box-shadow: white;
+    transform: translate(-50%, -50%);
+   
+}
+.cabelcalho-item:hover{
+    background: gainsboro
+}
+
+.minhafoto{
+    position: relative;
+    margin-left: 34%;
+    margin-top: 0%;
+    width: 30%;
+    
+    
+}
+
+
+
+.conteudo-titulo{
+    position: relative;
+    margin-left: 40%;
+    margin-top: 0%; 
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+  
+    
+}
+.conteudo-buttom{
+    position: relative;
+    margin-left: 42.5%;
+    margin-top: 0.5%; 
+    padding: 5px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10%;
+    font-size: 30px;
+    transform-style: preserve-3d;
+
+
+}
+
+@keyframes bounce {
+    0%,20%,60%,100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    40% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    
+}
+
+.conteudo-buttom:hover{
+    animation: bounce 1s;
+}
+
+
+#sessao1{
+display: flex;
+margin-top: 6%;
+height: 100vh;
+background-image: url("w2.png");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.conteudo-secundario{
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 38%;
+    width: 250%;
+}
+
+.conteudo-secundario-p {
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 60%;
+    height: 30%;
+
+}
+.conteudo-secundario-p1 {
+    font-family: 'Fira Sans', sans-serif;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 60%;
+    height: 30%;
+
+}
+.foto1 {
+    position: absolute;
+    width: 13%;
+    margin-top: 28%;
+    margin-left: -90%;
+}
+.foto2 {
+position: absolute;
+width: 13.5%;
+margin-top: 28%;
+margin-left: -70%;
+
+}
+
+#sessao2{
+display: flex;
+margin-top: 4;
+height: 100vh;
+background-image: url("w3.png");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.conteudo-final{
+    margin-left: 80%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250%;
+    color: whitesmoke
+    
+}
+
+.logoinsta {
+    position:absolute;
+    width: 5%;
+    margin-top: 12%;
+    margin-left: -10%;
+    
+    
+}
+.logoout{
+    position:absolute;
+    width: 5%;
+    margin-top: 19%;
+    margin-left: -10%;
+
+}
+.logolink{
+    position:absolute;
+    width: 5%;
+    margin-top: 26%;
+    margin-left: -10%;
+}
+.logogit{
+    position:absolute;
+    width: 8%;
+    margin-top: 31.5%;
+    margin-left: -11.5%;
+}
+
+
